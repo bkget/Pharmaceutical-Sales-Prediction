@@ -136,4 +136,32 @@ class DfCleaner():
       df[col] = df[col].astype("bool")
     return df
 
-  
+  def converter(self, df: pd.DataFrame, column, scale):
+    df[column] = df[column] * scale
+    return df
+
+  def fix_missing_ffill(self, df: pd.DataFrame, columns):
+    for col in columns:
+      df[col] = df[col].fillna(method='ffill')
+    return df
+
+  def fix_missing_bfill(self, df: pd.DataFrame, columns):
+    for col in columns:
+      df[col] = df[col].fillna(method='bfill')
+    return df
+
+  def fill_with_mode(self, df: pd.DataFrame, columns):
+    for col in columns:
+      df[col] = df[col].fillna(df[col].mode()[0])
+    return df
+
+  def fill_with_mean(self, df: pd.DataFrame, columns):
+    for col in columns:
+      df[col] = df[col].fillna(df[col].mean())
+    return df
+
+  def fill_with_median(self, df: pd.DataFrame, columns):
+    for col in columns:
+      df[col] = df[col].fillna(df[col].median())
+    return df
+
