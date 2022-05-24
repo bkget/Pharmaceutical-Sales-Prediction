@@ -36,3 +36,28 @@ class DfCleaner():
     df.drop_duplicates(inplace=True)
     return df
 
+  def drop_columns(self, df: pd.DataFrame, columns: list) -> pd.DataFrame:
+    """ drop selected columns from data frame
+    Args:
+        df (pd.DataFrame):  pandas data frame
+        columns (list): list of column labels
+    Returns:
+        pd.DataFrame: pandas data frame columns dropped
+    """
+    for col in columns:
+      df.drop(col, axis=1, inplace=True)
+    return df
+
+  def drop_rows(self, df: pd.DataFrame, column: str, row_value: str) -> pd.DataFrame:
+    """drop rows in selected column based on condition given
+    Args:
+        df (pd.DataFrame): pandas data frame
+        column (str): column label
+        row_value (str): condition to check againest
+    Returns:
+        pd.DataFrame: pandas data frame with rows dropped
+    """
+    df = df.drop(df[df[column] != row_value].index)
+    return df
+
+  
