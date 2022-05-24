@@ -60,4 +60,19 @@ class DfCleaner():
     df = df.drop(df[df[column] != row_value].index)
     return df
 
-  
+  def columns_too_much_null(self, df: pd.DataFrame, percentage: int) -> pd.DataFrame:
+    """drops columns with big persentage of null values
+    Args:
+        df (pd.DataFrame): pandas data frame
+        percentage (int): persentage of null values
+    Returns:
+        [type]: pandas data frame columns dropped
+    """
+    columns = []
+    for index, row in df.iterrows():
+      if float(row["none_percentage"].replace("%", '')) > percentage:
+        columns.append(index)
+
+    return columns
+
+ 
