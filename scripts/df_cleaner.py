@@ -165,3 +165,8 @@ class DfCleaner():
       df[col] = df[col].fillna(df[col].median())
     return df
 
+  def percent_missing(self, df):
+    totalCells = np.product(df.shape)
+    missingCount = df.isnull().sum()
+    totalMissing = missingCount.sum()
+    return str(round(((totalMissing / totalCells) * 100), 2))
