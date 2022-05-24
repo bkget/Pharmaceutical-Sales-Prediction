@@ -112,4 +112,16 @@ class DfCleaner():
       df[col] = df[col].astype('int64')
     return df
 
-  
+  def convert_to_datetime(self, df: pd.DataFrame, columns: list) -> pd.DataFrame:
+    """convert selected columns to datetime
+    Args:
+        df (pd.DataFrame): pandas data frame
+        columns (list): list of column labels
+    Returns:
+        pd.DataFrame: pandas data frame with converted data types
+    """
+    for col in columns:
+      df[col] = pd.to_datetime(df[col])
+    return df
+
+ 
