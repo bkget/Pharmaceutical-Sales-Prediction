@@ -75,4 +75,17 @@ class DfCleaner():
 
     return columns
 
+  def convert_to_string(self, df: pd.DataFrame, columns: list) -> pd.DataFrame:
+    """convert selected columns to string
+    Args:
+        df (pd.DataFrame): pandas data frame
+        columns (list): list of column labels
+    Returns:
+        pd.DataFrame: pandas data frame with converted data types
+    """
+
+    for col in columns:
+      df[col] = df[col].astype("string")
+    return df
+
  
