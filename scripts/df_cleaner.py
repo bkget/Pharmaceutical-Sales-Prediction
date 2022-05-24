@@ -124,4 +124,16 @@ class DfCleaner():
       df[col] = pd.to_datetime(df[col])
     return df
 
- 
+  def convert_to_boolean(self, df: pd.DataFrame, columns: list) -> pd.DataFrame:
+    """convert selected columns to boolean
+    Args:
+        df (pd.DataFrame): pandas data frame
+        columns (list): list of column labels
+    Returns:
+        pd.DataFrame: pandas data frame with converted data types
+    """
+    for col in columns:
+      df[col] = df[col].astype("bool")
+    return df
+
+  
