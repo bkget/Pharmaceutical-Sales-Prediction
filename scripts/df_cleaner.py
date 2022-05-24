@@ -26,4 +26,13 @@ class DfCleaner():
     label = label.replace(' ', '_').replace('.', '').replace('/', '_')
     return label.lower()
 
-  
+  def drop_duplicate(self, df: pd.DataFrame) -> pd.DataFrame:
+    """drop duplicate rows
+    Args:
+        df (pd.DataFrame): pandas data frame
+    Returns:
+        pd.DataFrame: pandas data frame
+    """
+    df.drop_duplicates(inplace=True)
+    return df
+
