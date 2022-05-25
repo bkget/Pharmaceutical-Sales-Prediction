@@ -1,0 +1,155 @@
+2022-05-24 04:52:21,240 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 04:52:21,251 — Df_Cleaner — DEBUG — Loaded successfully!
+2022-05-24 04:56:00,851 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 04:56:00,864 — __name__ — DEBUG — Loaded successfully!
+2022-05-24 04:56:00,864 — __name__ — DEBUG — Loaded successfully!
+2022-05-24 04:59:33,819 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 04:59:33,833 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 05:01:09,296 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 05:01:09,301 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 05:01:09,316 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 05:05:07,305 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 05:05:07,309 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 05:05:07,312 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 05:12:56,254 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 05:12:56,257 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 05:12:56,261 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 05:12:56,965 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:14:06,681 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:14:06,719 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:14:06,726 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:18:30,544 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:18:30,584 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:18:30,592 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:19:35,217 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 05:19:35,223 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 05:19:35,228 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 05:19:35,932 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:19:37,058 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:19:37,093 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:20:01,694 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 05:20:01,698 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 05:20:01,703 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 05:20:03,565 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:20:03,600 — FileHandler — DEBUG — file read as csv
+2022-05-24 05:20:03,607 — FileHandler — DEBUG — file read as csv
+2022-05-24 08:41:51,543 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 08:41:51,558 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 08:41:51,570 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 08:41:55,029 — FileHandler — DEBUG — file read as csv
+2022-05-24 08:41:55,063 — FileHandler — DEBUG — file read as csv
+2022-05-24 08:41:55,063 — FileHandler — DEBUG — file read as csv
+2022-05-24 08:42:58,406 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 08:42:58,414 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 08:42:58,414 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 08:43:00,032 — FileHandler — DEBUG — file read as csv
+2022-05-24 08:43:00,068 — FileHandler — DEBUG — file read as csv
+2022-05-24 08:43:00,068 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:32:33,678 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 09:32:33,686 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 09:32:33,686 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 09:32:35,415 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:32:35,448 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:32:35,448 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:33:42,486 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:33:42,534 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:33:42,542 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:58:32,192 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:58:32,230 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:58:32,238 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:59:04,122 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:59:04,187 — FileHandler — DEBUG — file read as csv
+2022-05-24 09:59:04,188 — FileHandler — DEBUG — file read as csv
+2022-05-24 10:01:52,019 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 10:01:52,035 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 10:01:52,035 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 10:01:53,899 — FileHandler — DEBUG — file read as csv
+2022-05-24 10:01:53,935 — FileHandler — DEBUG — file read as csv
+2022-05-24 10:01:53,943 — FileHandler — DEBUG — file read as csv
+2022-05-24 10:06:06,804 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 10:06:06,832 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 10:06:06,835 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 10:06:10,990 — FileHandler — DEBUG — file read as csv
+2022-05-24 10:06:11,086 — FileHandler — DEBUG — file read as csv
+2022-05-24 10:06:11,101 — FileHandler — DEBUG — file read as csv
+2022-05-24 11:02:40,670 — FileHandler — DEBUG — file read as csv
+2022-05-24 11:02:40,715 — FileHandler — DEBUG — file read as csv
+2022-05-24 11:02:40,721 — FileHandler — DEBUG — file read as csv
+2022-05-24 11:04:27,804 — FileHandler — DEBUG — file read as csv
+2022-05-24 11:04:27,838 — FileHandler — DEBUG — file read as csv
+2022-05-24 11:04:27,844 — FileHandler — DEBUG — file read as csv
+2022-05-24 11:06:35,411 — FileHandler — DEBUG — file read as csv
+2022-05-24 11:06:35,440 — FileHandler — DEBUG — file read as csv
+2022-05-24 11:06:35,445 — FileHandler — DEBUG — file read as csv
+2022-05-24 13:10:55,267 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 13:10:55,282 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 13:10:55,287 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 13:10:57,111 — FileHandler — DEBUG — file read as csv
+2022-05-24 13:10:57,154 — FileHandler — DEBUG — file read as csv
+2022-05-24 13:10:57,161 — FileHandler — DEBUG — file read as csv
+2022-05-24 13:25:24,532 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 13:25:24,532 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 13:25:24,532 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 13:25:25,581 — FileHandler — DEBUG — file read as csv
+2022-05-24 13:25:25,624 — FileHandler — DEBUG — file read as csv
+2022-05-24 13:25:25,632 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:31:48,060 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 15:31:48,061 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 15:31:48,061 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 15:31:49,930 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:31:49,970 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:31:49,984 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:32:31,247 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:32:31,292 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:32:31,300 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:33:30,271 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 15:33:30,271 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 15:33:30,279 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 15:33:32,174 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:33:32,218 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:33:32,226 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:34:55,270 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 15:34:55,270 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 15:34:55,283 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 15:35:30,968 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 15:35:30,972 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 15:35:30,980 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 15:35:49,841 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:35:49,890 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:35:49,901 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:37:52,522 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 15:37:52,522 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 15:37:52,532 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 15:37:53,594 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:37:53,638 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:37:53,642 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:41:17,380 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 15:41:17,383 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 15:41:17,387 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 15:41:19,136 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:41:19,176 — FileHandler — DEBUG — file read as csv
+2022-05-24 15:41:19,182 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:16:23,491 — DfOverview — DEBUG — Loaded successfully!
+2022-05-24 17:16:23,499 — DfCleaner — DEBUG — Loaded successfully!
+2022-05-24 17:16:23,503 — DfOutlier — DEBUG — Loaded successfully!
+2022-05-24 17:16:27,704 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:16:27,785 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:16:27,796 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:33:00,449 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:33:00,485 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:33:00,492 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:35:00,977 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:35:01,007 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:35:01,013 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:39:44,772 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:39:44,806 — FileHandler — DEBUG — file read as csv
+2022-05-24 17:39:44,812 — FileHandler — DEBUG — file read as csv
+2022-05-24 18:01:13,782 — FileHandler — DEBUG — file read as csv
+2022-05-24 18:01:13,817 — FileHandler — DEBUG — file read as csv
+2022-05-24 18:01:13,823 — FileHandler — DEBUG — file read as csv
+2022-05-24 18:10:57,819 — FileHandler — DEBUG — file read as csv
+2022-05-24 18:10:57,855 — FileHandler — DEBUG — file read as csv
+2022-05-24 18:10:57,861 — FileHandler — DEBUG — file read as csv
+2022-05-24 18:22:28,700 — FileHandler — INFO — file saved as csv
+2022-05-24 18:22:37,206 — FileHandler — INFO — file saved as csv
+2022-05-24 18:22:37,587 — FileHandler — INFO — file saved as csv
