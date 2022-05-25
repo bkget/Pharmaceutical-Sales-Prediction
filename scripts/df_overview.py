@@ -35,8 +35,8 @@ class DfOverview:
     columns = [
       'label',
       'count',
-      'none_count',
-      'none_percentage',
+      'missing_count',
+      'missing_percentage',
       'unique_value_count',
       'unique_percentage',
       'dtype']
@@ -51,5 +51,5 @@ class DfOverview:
     )
     new_df = pd.DataFrame(data=data, columns=columns)
     new_df.set_index('label', inplace=True)
-    new_df.sort_values(by=["none_count"], inplace=True)
+    new_df.sort_values(by=["missing_count"], inplace=True)
     return new_df
