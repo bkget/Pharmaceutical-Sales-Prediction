@@ -155,15 +155,23 @@ class DfCleaner():
       df[col] = df[col].fillna(df[col].mode()[0])
     return df
 
-  def fill_with_mean(self, df: pd.DataFrame, columns):
-    for col in columns:
-      df[col] = df[col].fillna(df[col].mean())
-    return df
+  
+  def fill_numerical_columns(self, df: pd.DataFrame, columns):
+      '''
+      Fill Numerical null values with mean or median based on the skewness of the columns
+      '''
+      try:
+        for col in columns:
+          skewness = df[col].skew() 
+          if((-1 < skewness) and (skewness < -0.5)):
+            df[col] = df[col].fillna(df[col].mean())
+          else:
+            df[col] = df[col].fillna(df[col].median())
 
-  def fill_with_median(self, df: pd.DataFrame, columns):
-    for col in columns:
-      df[col] = df[col].fillna(df[col].median())
-    return df
+        return df
+
+      except:
+        pass
 
   def percent_missing(self, df):
     totalCells = np.product(df.shape)
