@@ -21,10 +21,10 @@ class Plots:
 
 
     def box_plot(self, df: pd.DataFrame, x_col: str, title: str)->None:
-        plt.figure(figsize=(12, 7))
+        plt.figure(figsize=(10, 5))
         sns.boxplot(data=df, x=x_col)
         plt.title(title, size=20)
-        plt.xticks(rotation=90, fontsize=14)
+        plt.xticks(fontsize=14)
         plt.show()
 
 
