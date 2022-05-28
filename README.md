@@ -26,5 +26,5 @@ The project covers the following:
 - Free API, comming soon
 - Clone the repo
 ```
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/bkget/Pharmaceutical-Sales-Prediction
 ```
