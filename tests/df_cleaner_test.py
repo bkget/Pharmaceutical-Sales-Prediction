@@ -1,7 +1,6 @@
 import os
 import sys
 import unittest
-from numpy import number
 import pandas as pd
 import pandas.api.types as ptypes
 from pandas.api import types
@@ -16,7 +15,7 @@ class TestDfCleaner(unittest.TestCase):
     def setUp(self) -> pd.DataFrame:
         self.cleaner = DfCleaner()
         self.file_handle = FileHandler()
-        
+
 
     def test_convert_to_integer(self):
         df = pd.DataFrame({'col1': ["1", "2"]})
