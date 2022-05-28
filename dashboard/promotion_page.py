@@ -37,11 +37,8 @@ def testingDataLoad():
 
 
 def transform_date(df):
-    
-    df['Date'] = pd.to_datetime(df['Date'])
-    df['Year'] = pd.DatetimeIndex(df['Date']).year
-    df['Month'] = pd.DatetimeIndex(df['Date']).month
-    df['Day'] = pd.DatetimeIndex(df['Date']).day
+     
+    df['Month'] = pd.DatetimeIndex(df['Date']).month 
     return df
 
 
