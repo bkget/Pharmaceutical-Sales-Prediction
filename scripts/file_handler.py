@@ -1,4 +1,5 @@
 import json
+import mlflow
 import pickle
 # import dvc.api
 import pandas as pd
@@ -33,10 +34,12 @@ class FileHandler():
 
   def save_model(self, model, model_name):
     try:
-      time = strftime("%Y-%m-%d-%H:%M", gmtime())
-      name = Config.MODELS_PATH / str(model_name + "-" + time + ".pkl")
-      pickle.dump(model, open(str(name), "wb"))
-      my_logger.info("file saved as csv")
+      file_name = model_name+"_model "+ strftime("%Y-%m-%d %H-%M-%S", gmtime())
+      with open(f'../models/{file_name}.pkl', 'wb') as my_model:
+        pickle.dump(model, my_model) 
+
+      mlflow.log_artifact(f"../models/{file_name}.pkl")
+      my_logger.info("The model is successfully saved!")
 
     except Exception:
       my_logger.exception("save failed")
@@ -47,6 +50,7 @@ class FileHandler():
       model = pickle.load(open(name, "rb"))
       my_logger.debug("model read as pkl")
       return model
+      
     except FileNotFoundError:
       my_logger.exception("model not found")
 
