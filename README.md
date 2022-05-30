@@ -20,7 +20,8 @@ The project covers the following:
 - Data preprocessing
 - EDA( Exploratory Data Analysis)
 - Sklearn Pipleine
-- ML model training
+- Machine Learning modelning
+- Deep Learning (LSTM) modeling
 
 ### Installation
 - Free API, comming soon
