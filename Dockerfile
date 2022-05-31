@@ -1,9 +1,17 @@
-FROM python:3.7
+FROM python:3.8-slim
 
-WORKDIR /app/scripts
+# Keeps Python from generating .pyc files in the container
+ENV PYTHONDONTWRITEBYTECODE=1
 
-COPY requirements.txt ./requirements.txt
+# Turns off buffering for easier container logging
+ENV PYTHONUNBUFFERED=1
 
-RUN pip3 install -r requirements.txt
+# Install pip requirements
+COPY requirements.txt .
+RUN python -m pip install -r requirements.txt
 
+WORKDIR /app
 COPY . /app
+
+# During debugging, this entry point will be overridden
+CMD ["python", "dashboard\app.py"]
