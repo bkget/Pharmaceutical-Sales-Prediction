@@ -397,3 +397,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '../models/LGBMRegressor
 2022-05-30 02:19:51,472 — Prediction — INFO — predicting for a group instance
 2022-05-30 02:19:51,480 — FileHandler — INFO — The model is successfully saved!
 2022-05-30 02:19:51,696 — FileHandler — DEBUG — model read as pkl
+2022-05-30 11:32:03,813 — FileHandler — DEBUG — file read as csv
+2022-05-30 11:32:03,912 — FileHandler — DEBUG — file read as csv
+2022-05-30 11:32:04,430 — Prediction — DEBUG — Date is encoded successfully.
+2022-05-30 11:32:07,594 — Prediction — DEBUG — Data is Normalized successfully.
+2022-05-30 11:32:55,094 — Prediction — INFO — Train Test split done successfully.
+2022-05-30 11:34:55,518 — Prediction — INFO — fitted a RandomForestRegressor(n_estimators=10) model
+2022-05-30 11:34:57,403 — Prediction — INFO — predicting for a group instance
+2022-05-30 11:34:59,452 — FileHandler — INFO — The model is successfully saved!
+2022-05-30 11:35:04,667 — Prediction — INFO — fitted a LGBMRegressor(n_estimators=10) model
+2022-05-30 11:35:04,894 — Prediction — INFO — predicting for a group instance
+2022-05-30 11:35:04,908 — FileHandler — INFO — The model is successfully saved!
+2022-05-30 11:35:06,074 — FileHandler — DEBUG — model read as pkl
